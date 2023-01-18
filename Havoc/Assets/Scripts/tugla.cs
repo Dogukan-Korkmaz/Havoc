@@ -8,10 +8,12 @@ public class tugla : MonoBehaviour
     public Sprite[] tuglaSprite;
     private int maxCarpmaSayisi;
     private int carpmaSayisi;
+    private Puan puanScripti;
     void Start()
     {
         maxCarpmaSayisi = tuglaSprite.Length + 1;
         toplamTuglaSayisi++;
+        puanScripti = GameObject.FindObjectOfType<Puan>().GetComponent<Puan>();
     }
 
     // Update is called once per frame
@@ -24,6 +26,7 @@ public class tugla : MonoBehaviour
     {
         if (diger.gameObject.name.Equals("top"))
         {
+            puanScripti.PuanArtir();
             carpmaSayisi++;
             if (carpmaSayisi >= maxCarpmaSayisi)
             {

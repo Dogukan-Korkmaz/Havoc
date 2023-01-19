@@ -122,4 +122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfb17ef004bc0694c9bbb20c2014022d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sesTuglaKirilma: {fileID: 8300000, guid: d73cb2f576b6bcf4d97dcab698f9e44b, type: 3}
+  sesTuglaCarpma: {fileID: 8300000, guid: 806e3a5818204654d8b9ae45207f00e1, type: 3}
   tuglaSprite: []

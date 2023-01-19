@@ -80,6 +80,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7709932410183321660}
   - component: {fileID: 7709932410183321661}
+  - component: {fileID: 6527559921108052239}
   m_Layer: 0
   m_Name: yukari
   m_TagString: Untagged
@@ -127,6 +128,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 15.785487, y: 1.023601}
   m_EdgeRadius: 0
+--- !u!114 &6527559921108052239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709932410183321663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e306303bccba764f966c9b34a0e3234, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sesEfekti: {fileID: 8300000, guid: 8fbe9b44226024a49b9c6d39051a6042, type: 3}
 --- !u!1 &7709932410501639608
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,6 +185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7709932411234046866}
   - component: {fileID: 7709932411234046867}
+  - component: {fileID: 6986657740925943828}
   m_Layer: 0
   m_Name: sag
   m_TagString: Untagged
@@ -218,6 +233,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 8.847201}
   m_EdgeRadius: 0
+--- !u!114 &6986657740925943828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709932411234046869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e306303bccba764f966c9b34a0e3234, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sesEfekti: {fileID: 8300000, guid: 8fbe9b44226024a49b9c6d39051a6042, type: 3}
 --- !u!1 &7709932411628061183
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,6 +256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7709932411628061180}
   - component: {fileID: 7709932411628061181}
+  - component: {fileID: 1694325115014001630}
   m_Layer: 0
   m_Name: sol
   m_TagString: Untagged
@@ -275,3 +304,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 8.870802}
   m_EdgeRadius: 0
+--- !u!114 &1694325115014001630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709932411628061183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e306303bccba764f966c9b34a0e3234, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sesEfekti: {fileID: 8300000, guid: 8fbe9b44226024a49b9c6d39051a6042, type: 3}

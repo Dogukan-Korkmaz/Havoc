@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class tugla : MonoBehaviour
 {
+    public AudioClip sesTuglaKirilma;
+    public AudioClip sesTuglaCarpma;
     public static int toplamTuglaSayisi;
     public Sprite[] tuglaSprite;
     private int maxCarpmaSayisi;
@@ -36,10 +38,12 @@ public class tugla : MonoBehaviour
                 {
                     GameObject.FindObjectOfType<OyunKontrol>().GetComponent<OyunKontrol>().BirSonrakiSahne();
                 }
+                AudioSource.PlayClipAtPoint(sesTuglaKirilma, transform.position);
                 Destroy(this.gameObject);
             }
             else
             {
+                AudioSource.PlayClipAtPoint(sesTuglaCarpma, transform.position);
                 GetComponent<SpriteRenderer>().sprite = tuglaSprite[carpmaSayisi - 1];
             }
         }

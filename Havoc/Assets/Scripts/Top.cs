@@ -18,7 +18,7 @@ public class Top : MonoBehaviour
             transform.position = new Vector3(pedal.transform.position.x, transform.position.y, transform.position.z);
         }
         
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !oyunBasladi)
         {
             oyunBasladi = true;//<3>
             GetComponent<Rigidbody2D>().velocity = new Vector2(1f, 11f);//Oyun baþladýðýnda topa küçük bir kuvvet lazým.

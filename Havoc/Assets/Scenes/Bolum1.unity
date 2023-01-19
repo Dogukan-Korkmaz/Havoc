@@ -867,6 +867,7 @@ GameObject:
   - component: {fileID: 1058192162}
   - component: {fileID: 1058192161}
   - component: {fileID: 1058192160}
+  - component: {fileID: 1058192163}
   m_Layer: 4
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -892,7 +893,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -939,6 +940,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1058192163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058192159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9402ab66b1beec7499a2f6433fc6da1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1105257748 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8802134946197058312, guid: 5656745dc8b758d48a98d669913af017, type: 3}
@@ -1629,7 +1642,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4675500535472508970, guid: dd45f64e6b91be741a42133a287f8f07, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.2541
+      value: 6.412
       objectReference: {fileID: 0}
     - target: {fileID: 4675500535472508970, guid: dd45f64e6b91be741a42133a287f8f07, type: 3}
       propertyPath: m_LocalPosition.y

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class tugla : MonoBehaviour
 {
+    public GameObject kirilmaEfekti;
     public AudioClip sesTuglaKirilma;
     public AudioClip sesTuglaCarpma;
     public static int toplamTuglaSayisi;
@@ -38,6 +39,11 @@ public class tugla : MonoBehaviour
                 {
                     GameObject.FindObjectOfType<OyunKontrol>().GetComponent<OyunKontrol>().BirSonrakiSahne();
                 }
+                Vector3 pos = diger.contacts[0].point;
+                GameObject go = Instantiate(kirilmaEfekti, pos, Quaternion.identity) as GameObject;
+                Color tuglaRengi = GetComponent<SpriteRenderer>().color;
+                go.GetComponent<ParticleSystemRenderer>().material.color = tuglaRengi;
+                Destroy(go, 1f);
                 AudioSource.PlayClipAtPoint(sesTuglaKirilma, transform.position);
                 Destroy(this.gameObject);
             }

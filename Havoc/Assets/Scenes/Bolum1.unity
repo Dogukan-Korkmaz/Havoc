@@ -1750,6 +1750,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1694325115014001630, guid: 5f3d442e21dd79c4fbafbfb835d7b703, type: 3}
+      propertyPath: carpma
+      value: 
+      objectReference: {fileID: 2128797671266030095, guid: 45cf3c883e7d6c5499fc0a58e5c91d2c, type: 3}
+    - target: {fileID: 6527559921108052239, guid: 5f3d442e21dd79c4fbafbfb835d7b703, type: 3}
+      propertyPath: carpma
+      value: 
+      objectReference: {fileID: 2128797671266030095, guid: 45cf3c883e7d6c5499fc0a58e5c91d2c, type: 3}
+    - target: {fileID: 6986657740925943828, guid: 5f3d442e21dd79c4fbafbfb835d7b703, type: 3}
+      propertyPath: carpma
+      value: 
+      objectReference: {fileID: 2128797671266030095, guid: 45cf3c883e7d6c5499fc0a58e5c91d2c, type: 3}
     - target: {fileID: 7709932410501639608, guid: 5f3d442e21dd79c4fbafbfb835d7b703, type: 3}
       propertyPath: m_Name
       value: "Oyunduvar\u0131"

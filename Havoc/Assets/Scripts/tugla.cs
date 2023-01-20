@@ -41,7 +41,7 @@ public class tugla : MonoBehaviour
                 }
                 Vector3 pos = diger.contacts[0].point;
                 GameObject go = Instantiate(kirilmaEfekti, pos, Quaternion.identity) as GameObject;
-                Color tuglaRengi = GetComponent<SpriteRenderer>().color;
+                Color tuglaRengi = GetComponent<SpriteRenderer>().color;//Tuðlanýn rengine eriþip rengi deðiþkene atýyýp alttaki satýrda rengi atýyoruz.
                 go.GetComponent<ParticleSystemRenderer>().material.color = tuglaRengi;
                 Destroy(go, 1f);
                 AudioSource.PlayClipAtPoint(sesTuglaKirilma, transform.position);
